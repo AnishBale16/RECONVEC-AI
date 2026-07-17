@@ -1,0 +1,102 @@
+{
+  "Port Scan": {
+    "id": "T1595",
+    "name": "Active Scanning",
+    "tactic": "Reconnaissance"
+  },
+  "SSH Login Failed": {
+    "id": "T1110",
+    "name": "Brute Force",
+    "tactic": "Credential Access"
+  },
+  "SSH Login Success": {
+    "id": "T1078",
+    "name": "Valid Accounts",
+    "tactic": "Initial Access / Persistence"
+  },
+  "New User Created": {
+    "id": "T1136",
+    "name": "Create Account",
+    "tactic": "Persistence"
+  },
+  "PowerShell Command Execution": {
+    "id": "T1059.001",
+    "name": "Command and Scripting Interpreter: PowerShell",
+    "tactic": "Execution"
+  },
+  "sudo": {
+    "id": "T1548.003",
+    "name": "Abuse Mechanisms: Sudo and Sudo Caching",
+    "tactic": "Privilege Escalation"
+  },
+  "Sensitive File Access": {
+    "id": "T1005",
+    "name": "Data from Local System",
+    "tactic": "Collection"
+  },
+  "File Read": {
+    "id": "T1005",
+    "name": "Data from Local System",
+    "tactic": "Collection"
+  },
+  "Phishing Attachment": {
+    "id": "T1566.001",
+    "name": "Phishing: Spearphishing Attachment",
+    "tactic": "Initial Access"
+  },
+  "Registry Modification": {
+    "id": "T1112",
+    "name": "Modify Registry",
+    "tactic": "Defense Evasion"
+  },
+  "Process Injection": {
+    "id": "T1055",
+    "name": "Process Injection",
+    "tactic": "Defense Evasion / Privilege Escalation"
+  },
+  "Scheduled Task Creation": {
+    "id": "T1053.005",
+    "name": "Scheduled Task/Job: Scheduled Task",
+    "tactic": "Execution / Persistence"
+  },
+  "Data Encrypted for Impact": {
+    "id": "T1486",
+    "name": "Data Encrypted for Impact (Ransomware)",
+    "tactic": "Impact"
+  },
+  "Network Share Discovery": {
+    "id": "T1135",
+    "name": "Network Share Discovery",
+    "tactic": "Discovery"
+  },
+  "Log Clearing": {
+    "id": "T1070.001",
+    "name": "Indicator Removal: Clear Windows Event Logs",
+    "tactic": "Defense Evasion"
+  },
+  "LSASS Memory Dump": {
+    "id": "T1003.001",
+    "name": "OS Credential Dumping: LSASS Memory",
+    "tactic": "Credential Access"
+  },
+  "Web Shell Deployment": {
+    "id": "T1505.003",
+    "name": "Server Software Component: Web Shell",
+    "tactic": "Persistence"
+  },
+  "Data Compressed": {
+    "id": "T1020",
+    "name": "Automated Exfiltration",
+    "tactic": "Exfiltration"
+  },
+  "Remote Desktop Protocol Connection": {
+    "id": "T1021.001",
+    "name": "Remote Services: Remote Desktop Protocol",
+    "tactic": "Lateral Movement"
+  },
+  "Sudo Privilege Escalation": {
+    "id": "T1548.003",
+    "name": "Abuse Mechanisms: Sudo and Sudo Caching",
+    "tactic": "Privilege Escalation"
+  }
+}
